@@ -20,7 +20,7 @@ var SearchBarLegacy = React.createClass({
 
   onInputChange: function(term) {
     this.setState({term});
-    this.props.onSearchTermChange(term);
+    this.props.onSearchTermChange(term)
   }
 });
 
