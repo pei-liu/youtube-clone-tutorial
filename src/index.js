@@ -6,6 +6,7 @@ import SearchBar from './components/search_bar';
 import SearchBarLegacy from './components/search_bar_legacy';
 import VideoList from './components/video_list';
 import VideoDetail from './components/video_detail';
+import VideoDetailLegacy from './components/video_detail_legacy';
 const API_KEY = 'AIzaSyCGe7jAKrhWzTW7joAckoXuScexU9ikORU';
 
 class App extends Component {
@@ -33,7 +34,7 @@ class App extends Component {
     return (
       <div>
         <SearchBarLegacy onSearchTermChange={videoSearch}/>
-        <VideoDetail video={this.state.selectedVideo} />
+        <VideoDetailLegacy video={this.state.selectedVideo} />
         <VideoList
           videos={this.state.videos}
           onVideoSelect={(selectedVideo) => this.setState({selectedVideo})} />
