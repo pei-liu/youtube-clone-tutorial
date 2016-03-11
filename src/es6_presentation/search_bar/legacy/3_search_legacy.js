@@ -1,11 +1,7 @@
 
 
 var SearchBarLegacy = React.createClass({
-  getInitialState: function() {
-    return {
-      term: ''
-    }
-  },
+  getInitialState: function() { /* ... */ },
 
   render: function() {
     var that = this;
@@ -27,4 +23,4 @@ var SearchBarLegacy = React.createClass({
 // Topics:
 // 1. Class function syntax
 // 2. Arrow function (scope)
-// 3. Destructuring
+// 3. Destructuring ({ term:term })

@@ -1,10 +1,6 @@
 
 
 var VideoDetailLegacy = function(props) {
-  if (!props.video) {
-    return <div>Loading...</div>;
-  }
-
   var videoId = props.video.id.videoId;
   var url = 'http://www.youtube.com/embed/' + videoId;
 
