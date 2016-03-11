@@ -1,3 +1,5 @@
+
+
 var VideoDetailLegacy = function(props) {
   if (!props.video) {
     return <div>Loading...</div>;
@@ -20,4 +22,4 @@ var VideoDetailLegacy = function(props) {
 
 // Topics
 // 1. Template Strings
-// 2. More Destructuring (look how many times we use it!)
+// 2. More Destructuring!

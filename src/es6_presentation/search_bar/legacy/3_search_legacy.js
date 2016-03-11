@@ -1,3 +1,5 @@
+
+
 var SearchBarLegacy = React.createClass({
   getInitialState: function() {
     return {
@@ -17,7 +19,7 @@ var SearchBarLegacy = React.createClass({
   },
 
   onInputChange: function(term) {
-    this.setState({term});
+    this.setState({ term: term});
     this.props.onSearchTermChange(term);
   }
 });

@@ -1,3 +1,5 @@
+
+
 var VideoDetailLegacy = function(props) {
   if (!props.video) {
     return <div>Loading...</div>;
@@ -9,7 +11,6 @@ var VideoDetailLegacy = function(props) {
 }
 
 // Topics:
-// 1. Import/Export
-// 2. Functional Components
-// 3. var vs const vs let
-// 4. Destructured variables
+// 1. Functional Components
+// 2. var vs const vs let
+// 3. Destructured variables

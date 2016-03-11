@@ -1,3 +1,5 @@
+
+
 var SearchBarLegacy = React.createClass({
 
   getInitialState: function() {
@@ -7,6 +9,7 @@ var SearchBarLegacy = React.createClass({
   },
 
 });
+
 
 // Topics
 // 1. Constructor
